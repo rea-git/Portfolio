@@ -1,0 +1,148 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f1f4; /* Light neutral pink background */
+}
+
+header {
+    background-color: #b5838d; /* Neutral pink header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Change to column to stack items */
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    margin-top: 10px; /* Space between the header and navigation */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center navigation links */
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ffb3c1; /* Contrast pink hover effect */
+}
+
+/* Section styles */
+.section {
+    padding: 100px 20px;
+    margin-top: 100px; /* Increased to adjust for the new header height */
+}
+
+.section h2 {
+    font-size: 32px; /* Increased font size for more impact */
+    margin-bottom: 20px;
+    color: #b5838d; /* Darker neutral pink */
+    text-align: center; /* Center the section headings */
+    text-transform: uppercase; /* Make the headings uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+    border-bottom: 2px solid #b5838d; /* Add a bottom border */
+    padding-bottom: 10px; /* Add padding at the bottom */
+    margin-bottom: 30px; /* Add more space below the heading */
+}
+
+.section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific section styles */
+#about {
+    background-color: #f4e1e6; /* Very light pink */
+}
+
+#education {
+    background-color: #f4e1e6;
+}
+
+#certifications {
+    background-color: #f4e1e6;
+}
+
+#skills {
+    background-color: #f4e1e6;
+}
+
+#projects {
+    background-color: #f4e1e6;
+}
+
+#hobbies {
+    background-color: #f4e1e6;
+}
+
+#skills ul,
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li,
+#hobbies li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+#skills ul li:before,
+#hobbies ul li:before {
+    content: '•';
+    color: #b5838d; /* Neutral pink bullet points */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+hr {
+    border: 1px solid #b5838d; /* Neutral pink line */
+    margin: 20px 0;
+}
+
+a {
+    color: #b5838d; /* Default link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb3c1; /* Contrast pink hover effect */
+}
